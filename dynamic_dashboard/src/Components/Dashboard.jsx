@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { fetchConfigData } from "../reducers/Getconfig";
 import { fetchDashboardData } from "../reducers/dashboardfetch";
-import { deleteDashboard } from "../reducers/deleteDashboardSlice"; // You'll need to create this reducer
+import { deleteDashboard } from "../reducers/deleteDashboardSlice"; 
 import DynamicAutoCharts from "../charts/DynamicAutoChart";
 
 const Dashboard = () => {
